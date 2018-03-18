@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  color: seashell !important;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+}
+
+body {
+  background-color:black!important;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+.bar {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+}
+
+.bar-container {
+  width: 100%;
+  height: 69px;
+}
+
+.bar img {
+  text-decoration: none;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.bar-text {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  right: 20px;
+}
+
+.bar-text p {
+  text-decoration: underline;
+  margin-left: 20px;
+  background-color: black !important;
+}
+
+.content1 {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.content1 .text {
+  position: relative;
+  top: 50%;
+  background-color: black;
+}
+
+.content2 {
+  width: 1000px;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.tea {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;;
+}
+
+.species {
+  width: 300px;
+}
+
+.species img{
+  width: 100%;
+}
+
+.content3 {
+  height: 500px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  margin: 50px auto 0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  text-align: center;
+}
+
+.locations-container {
+  display: flex;
+  margin: 0 8%;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 10px 20px;
+}
+
+.location h3, .location p {
+  line-height: 40px;
+}
+
+.content4 {
+  height: 200px;
+}
+
+.contact{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  margin: 20px;
+  float: left;
+}
